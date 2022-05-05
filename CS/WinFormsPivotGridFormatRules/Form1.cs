@@ -15,12 +15,12 @@ namespace WinFormsPivotGridFormatRules
             PivotGridFormatRule newRule = new PivotGridFormatRule();
 
             // Sets a Measure.
-            newRule.Measure = fieldExtendedPrice1;
+            newRule.Measure = fieldExtendedPrice;
 
             // Creates and specifies a new Settings object.
             newRule.Settings = new FormatRuleFieldIntersectionSettings{
                 Column = fieldOrderYear1, 
-                Row = fieldSalesPerson1 
+                Row = fieldSalesPerson 
             };
 
             // Creates a new Rule object and sets its parameters.
