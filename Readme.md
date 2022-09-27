@@ -4,11 +4,11 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Pivot Grid for WinForms - Apply Format Rules to the Pivot Grid Data Cells
+# Pivot Grid for WinForms - Apply Format Rules to the Data Cells
 
 The following example shows how to apply a data bar format condition (the [FormatConditionRuleDataBar](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.FormatConditionRuleDataBar) class) to the Pivot Grid data cells. The Pivot Grid paints cells placed at the intersection of the `Year` column and the `Sales Person` row with the yellow gradient. A longer bar corresponds to a higher value, and a shorter bar corresponds to a lower value.
 
-![Pivot Grid](images/pivot-grid.png)
+![Pivot Grid](images/pivotgrid.png)
 
 <!-- default file list -->
 ## Files to Review
