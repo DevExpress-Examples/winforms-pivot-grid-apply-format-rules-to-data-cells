@@ -13,7 +13,7 @@ The following example shows how to apply a data bar format condition (the [Forma
 <!-- default file list -->
 ## Files to Review
 
-* [Form1.cs](./CS/WinFormsPivotGridFormatRules/Form1.cs) (VB: [Form1.vb](./VB/WinFormsPivotGridFormatRules/Form1.vb))
+[Form1.cs](./CS/WinFormsPivotGridFormatRules/Form1.cs) (VB: [Form1.vb](./VB/WinFormsPivotGridFormatRules/Form1.vb))
 <!-- default file list end -->
 
 ## Documentation
