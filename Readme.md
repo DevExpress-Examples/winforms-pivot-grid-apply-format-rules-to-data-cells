@@ -3,16 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T191674)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# Pivot Grid for WinForms - Apply Format Rules to the Pivot Grid Data Cells
+
+The following example shows how to apply a data bar format condition (the [FormatConditionRuleDataBar](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.FormatConditionRuleDataBar) class) to the Pivot Grid data cells. The Pivot Grid paints cells placed at the intersection of the `Year` column and the `Sales Person` row with the yellow gradient. A longer bar corresponds to a higher value, and a shorter bar corresponds to a lower value.
+
+![Pivot Grid](images/pivot-grid.png)
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Review
 
 * [Form1.cs](./CS/WinFormsPivotGridFormatRules/Form1.cs) (VB: [Form1.vb](./VB/WinFormsPivotGridFormatRules/Form1.vb))
 <!-- default file list end -->
-# How to apply format rules to pivot grid data cells
 
+## Documentation
 
-<p>The following sample applies format rules to PivotGridControl data cells. The <a href="https://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraEditorsFormatConditionRuleDataBartopic">FormatConditionRuleDataBar</a> class allows you to see a cell value relative to other cells. A longer bar corresponds to a higher value, and a shorter bar corresponds to a lower value. Cells placed at the intersection of the 'Year' column and the 'Sales Person' row are painted with the yellow gradient.</p>
+[Conditional Formatting](https://docs.devexpress.com/WindowsForms/1883/controls-and-libraries/pivot-grid/data-analysis/conditional-formatting)
 
-<br/>
+## More Examples
+
+[How to Display KPI Graphics in the Pivot Grid bound to an MS SQL Data Source](https://github.com/DevExpress-Examples/how-to-display-kpi-graphics-in-pivotgridcontrol-bound-to-a-regular-data-source-t152365)
+
 
 
