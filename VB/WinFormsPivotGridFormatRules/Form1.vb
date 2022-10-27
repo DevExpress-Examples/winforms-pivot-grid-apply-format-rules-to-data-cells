@@ -3,8 +3,10 @@ Imports DevExpress.XtraPivotGrid
 Imports DevExpress.XtraEditors
 
 Namespace WinFormsPivotGridFormatRules
+
     Public Partial Class Form1
         Inherits Form
+
         Public Sub New()
             InitializeComponent()
             salesPersonTableAdapter1.Fill(nwindDataSet1.SalesPerson)
